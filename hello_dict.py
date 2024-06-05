@@ -20,7 +20,7 @@ print('thiago' .upper())
 print(56 + 7)
 
 import os
-current_language = os.getenv("LANG") [:5]
+current_language = os.getenv("LANG", "pt_BR") [:5]
 
 #Esse script imprimi o Hello World
 current_language = "en_US"
